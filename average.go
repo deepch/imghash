@@ -27,7 +27,7 @@ func Average(img image.Image) []byte {
 	//	log.Println(img.Bounds())
 	//log.Println(time.Now().Sub(LastAnalis))
 	//log.Println(img)
-	img = grayscale(img)
+	//img = grayscale(img)
 	//f, _ := os.Create("deep.jpeg")
 	//	check(err)
 	//	It’s idiomatic to defer a Close immediately after opening a file.
